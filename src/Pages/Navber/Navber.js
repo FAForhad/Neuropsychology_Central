@@ -3,7 +3,7 @@ import React from 'react';
 const Navber = () => {
     return (
         <div>
-            <header aria-label="Site Header" class="shadow-sm lg:py-7">
+            <header aria-label="Site Header" class="shadow-sm lg:py-5">
                 <div
                     class="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4"
                 >
@@ -13,9 +13,9 @@ const Navber = () => {
 
                     <div class="lg:flex items-center gap-4 hidden cursor-pointer">
                         <img className='h-16 w-16' src="https://i.postimg.cc/ZndTTsM5/favicon.png" alt="" />
-                        <div className='mt-4 text-2xl text-start uppercase font-bold bg-yellow-600 text-white p-11 z-50 ' style={{ clipPath: 'polygon(0 0, 76% 0, 100% 100%, 18% 100%)' }}>
-                            <h1 className='pr-5'>Neuropsychology </h1>
-                            <h1 className=''>Central</h1>
+                        <div className='mt-4 text-2xl text-start uppercase font-bold bg-yellow-600 text-white p-11 z-50 ' style={{ clipPath: 'polygon(-5px 0px, 82% 0px, 100% 95%, 16% 95%)' }}>
+                            <h1 className='pr-5 px-1'>Neuropsychology </h1>
+                            <h1 className='px-1'>Central</h1>
                         </div>
                     </div>
 
@@ -47,22 +47,26 @@ const Navber = () => {
                         <a class="text-gray-900 hover:text-yellow-500 " href="">Contact</a>
                     </nav>
 
-                    <div class="hidden items-center gap-4 lg:flex">
-                        <a
-                            href="#"
-                            class="rounded-sm bg-yellow-600 px-5 py-3 hover:bg-gray-100 hover:text-yellow-500 uppercase text-sm font-bold text-white"
-                            style={{ clipPath: 'polygon(0 0, 78% 0, 100% 100%, 18% 100%)' }}
-                        >
-                            Log in
-                        </a>
+                    <div class="hidden items-center lg:flex">
+                        <div className='py-16 bg-yellow-600 z-50' style={{ clipPath: 'polygon(4px 24px, 50% -50px, 100% 100%, 32% 100%)' }}>
+                            <a
+                                href="#"
+                                class="rounded-sm bg-yellow-600 px-12 hover:bg-gray-100 hover:text-yellow-500 uppercase text-sm font-bold text-white"
+                            >
+                                Log in
+                            </a>
 
-                        <a
-                            href="#"
-                            class="rounded-sm bg-yellow-600 px-5 py-3 hover:bg-gray-100 hover:text-yellow-500 uppercase text-sm font-bold text-white"
-                            style={{ clipPath: 'polygon(0 0, 78% 0, 100% 100%, 18% 100%)' }}
-                        >
-                            Sign up
-                        </a>
+                        </div>
+                        <div className='py-16 bg-yellow-600 z-50' style={{ clipPath: 'polygon(4px 24px, 50% -50px, 100% 100%, 32% 100%)' }}>
+
+                            <a
+                                href="#"
+                                class="rounded-sm bg-yellow-600 px-12 hover:bg-gray-100 hover:text-yellow-500 uppercase text-sm font-bold text-white"
+
+                            >
+                                Sign up
+                            </a>
+                        </div>
                     </div>
                 </div>
 

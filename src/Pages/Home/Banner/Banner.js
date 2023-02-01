@@ -1,51 +1,88 @@
 import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Parallax, Pagination, Navigation } from "swiper";
+import './Banner.css'
+import 'swiper/css';
+
 
 const Banner = () => {
     return (
         <div>
-            <section
-                class="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat"
-            >
-                <div
-                    class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"
-                ></div>
-
-                <div
-                    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+            <div >
+                <Swiper
+                    style={{
+                        height: '850px',
+                        "--swiper-navigation-color": "#fff",
+                        "--swiper-pagination-color": "#fff",
+                    }}
+                    speed={600}
+                    parallax={true}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Parallax, Pagination, Navigation]}
+                    className="mySwiper h-full top-0"
                 >
-                    <div class="max-w-xl text-center sm:text-left">
-                        <h1 class="text-3xl font-extrabold sm:text-5xl">
-                            Let us find your
+                    <div
+                        slot="container-start"
+                        className="parallax-bg "
+                        style={{
+                            "backgroundImage":
+                                "url(https://i.postimg.cc/fRGrKf7n/sad-man-holding-head-with-hand-1150-6345.jpg)",
+                        }}
+                        data-swiper-parallax="-15%"
+                    ></div>
+                    <SwiperSlide>
+                        <div className="text" data-swiper-parallax="-100">
+                            <div className='lg:flex md:flex items-center justify-center'>
+                                <div className='w-full text-start lg:px-8 lg:pl-14'>
+                                    <p className='lg:text-3xl text-lg md:text-xl uppercase'>Reduce <span className='text-yellow-500'>Stress</span> </p>
+                                    <p className='lg:text-6xl text-3xl md:text-4xl my-5 uppercase'>It's not stress <br /> <span className='bg-yellow-600 pr-24 px-1 rounded-lg' style={{
+                                        clipPath: 'polygon(0% 0%, 99% 0%, 80% 100%, 79% 100%, 0% 100%)'
+                                    }}>that kills us</span><br />it's our reaction to it.</p>
+                                </div>
+                                <div className="card  w-full p-5 mx-auto lg:mt-24">
+                                    <img className='pt-6 lg:h-full mt-12 md:h-72 h-60' src="https://i.postimg.cc/sXGsxM0c/pngegg.png" alt="" />
+                                </div>
 
-                            <strong class="block font-extrabold text-rose-700">
-                                Forever Home.
-                            </strong>
-                        </h1>
-
-                        <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-                            tenetur fuga ducimus numquam ea!
-                        </p>
-
-                        <div class="mt-8 flex flex-wrap gap-4 text-center">
-                            <a
-                                href="#"
-                                class="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-                            >
-                                Get Started
-                            </a>
-
-                            <a
-                                href="#"
-                                class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
-                            >
-                                Learn More
-                            </a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="text" data-swiper-parallax="-100">
+                            <div className='lg:flex md:flex items-center justify-center'>
+                                <div className='w-full text-start lg:px-8 lg:pl-14'>
+                                    <p className='lg:text-3xl text-lg md:text-xl uppercase'>Reduce <span className='text-yellow-500'>Stress</span> </p>
+                                    <p className='lg:text-6xl text-3xl md:text-4xl my-5 uppercase'>It's not stress <br /> <span className='bg-yellow-600 pr-24 px-1 rounded-lg' style={{
+                                        clipPath: 'polygon(0% 0%, 99% 0%, 80% 100%, 79% 100%, 0% 100%)'
+                                    }}>that kills us</span><br />it's our reaction to it.</p>
+                                </div>
+                                <div className="card  w-full p-5 mx-auto lg:mt-24">
+                                    <img className='pt-6 lg:h-full mt-12 md:h-72 h-60' src="https://i.postimg.cc/sXGsxM0c/pngegg.png" alt="" />
+                                </div>
 
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="text" data-swiper-parallax="-100">
+                            <div className='lg:flex md:flex items-center justify-center'>
+                                <div className='w-full text-start lg:px-8 lg:pl-14'>
+                                    <p className='lg:text-3xl text-lg md:text-xl uppercase'>Reduce <span className='text-yellow-500'>Stress</span> </p>
+                                    <p className='lg:text-6xl text-3xl md:text-4xl my-5 uppercase'>It's not stress <br /> <span className='bg-yellow-600 pr-24 px-1 rounded-lg' style={{
+                                        clipPath: 'polygon(0% 0%, 99% 0%, 80% 100%, 79% 100%, 0% 100%)'
+                                    }}>that kills us</span><br />it's our reaction to it.</p>
+                                </div>
+                                <div className="card  w-full p-5 mx-auto lg:mt-24">
+                                    <img className='pt-6 lg:h-full mt-12 md:h-72 h-60' src="https://i.postimg.cc/sXGsxM0c/pngegg.png" alt="" />
+                                </div>
+
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
+            </div>
         </div>
     );
 };
