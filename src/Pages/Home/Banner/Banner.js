@@ -53,10 +53,10 @@ const Banner = () => {
                         <div className="text" data-swiper-parallax="-100">
                             <div className='lg:flex md:flex items-center justify-center'>
                                 <div className='w-full text-start lg:px-8 lg:pl-14'>
-                                    <p className='lg:text-3xl text-lg md:text-xl uppercase'>Reduce <span className='text-yellow-500'>Stress</span> </p>
-                                    <p className='lg:text-6xl text-xl md:text-4xl my-5 uppercase'>It's not stress <br /> <span className='bg-yellow-600 pr-24 px-1 rounded-lg' style={{
+                                    <p className='lg:text-3xl text-lg md:text-xl uppercase text-yellow-500 font-bold'>Psychology Is <span className=''>Action</span> </p>
+                                    <p className='lg:text-6xl text-xl md:text-4xl my-5 uppercase'>Psychology Is Action<br /> <span className='bg-yellow-600 pr-24 px-1 rounded-lg' style={{
                                         clipPath: 'polygon(0% 0%, 99% 0%, 80% 100%, 79% 100%, 0% 100%)'
-                                    }}>that kills us</span><br />it's our reaction to it.</p>
+                                    }}>Not Thinking</span><br />About Oneself.</p>
                                 </div>
                                 <div className="card hidden lg:block  w-full p-5 mx-auto lg:mt-24">
                                     <img className='pt-6 mt-12 md:h-72 h-60' style={{ height: '620px', paddingBottom: '50px' }} src="https://i.postimg.cc/qRVr1C8F/Pngtree-depression-bad-thoughts-stress-concept-8817411.png" alt="" />
@@ -69,10 +69,10 @@ const Banner = () => {
                         <div className="text" data-swiper-parallax="-100">
                             <div className='lg:flex md:flex items-center justify-center'>
                                 <div className='w-full text-start lg:px-8 lg:pl-14'>
-                                    <p className='lg:text-3xl text-lg md:text-xl uppercase'>Reduce <span className='text-yellow-500'>Stress</span> </p>
-                                    <p className='lg:text-6xl text-xl md:text-4xl my-5 uppercase'>It's not stress <br /> <span className='bg-yellow-600 pr-24 px-1 rounded-lg' style={{
+                                    <p className='lg:text-3xl text-lg md:text-xl uppercase'><span className='text-yellow-500'>Anxiety</span> </p>
+                                    <p className='lg:text-6xl text-xl md:text-4xl my-5 uppercase'> does not empty tomorrow <br /> <span className='bg-yellow-600 pr-24 px-1 rounded-lg' style={{
                                         clipPath: 'polygon(0% 0%, 99% 0%, 80% 100%, 79% 100%, 0% 100%)'
-                                    }}>that kills us</span><br />it's our reaction to it.</p>
+                                    }}>its sorrows,</span><br /> today of its strength.</p>
                                 </div>
                                 <div className="card hidden lg:block w-full p-5 mx-auto lg:mt-24">
                                     <img className='pt-6 lg:h-full mt-12 md:h-72 h-60' style={{ height: '620px', paddingBottom: '50px' }} src="https://i.postimg.cc/GLyv780x/pngwing-com-2.png" alt="" />
