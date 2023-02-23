@@ -45,7 +45,6 @@ const Banner = () => {
                                 <div className="card hidden lg:block  w-full p-5 mx-auto lg:mt-24">
                                     <img className='pt-6 lg:h-full mt-12 md:h-72 h-60' src="https://i.postimg.cc/sXGsxM0c/pngegg.png" alt="" />
                                 </div>
-
                             </div>
                         </div>
                     </SwiperSlide>
