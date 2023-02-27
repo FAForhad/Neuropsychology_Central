@@ -51,6 +51,15 @@ const Banner = () => {
                     <br />
                     it's our reaction to it.
                   </p>
+                  <div className="lg:mx-52">
+                    <button className="btn bg-yellow-600  px-5 text-sm font-thin border-none">
+                      {" "}
+                      Book Now
+                    </button>
+                    <button className="btn btn-outline btn-warning lg:mx-4 my-2 px-5 text-sm font-thin ">
+                      About Us
+                    </button>
+                  </div>
                 </div>
                 <div className="card hidden lg:block  w-full p-5 mx-auto lg:mt-24">
                   <img
@@ -83,6 +92,15 @@ const Banner = () => {
                     <br />
                     About Oneself.
                   </p>
+                  <div className="lg:mx-52">
+                    <button className="btn bg-yellow-600 px-5 text-sm font-thin border-none">
+                      {" "}
+                      Book Now
+                    </button>
+                    <button className="btn btn-outline btn-warning lg:mx-4 my-2 px-5 text-sm font-thin ">
+                      About Us
+                    </button>
+                  </div>
                 </div>
                 <div className="card hidden lg:block  w-full p-5 mx-auto lg:mt-24">
                   <img
@@ -115,6 +133,15 @@ const Banner = () => {
                     </span>
                     <br /> today of its strength.
                   </p>
+                  <div className="lg:mx-52">
+                    <button className="btn bg-yellow-600 px-5 text-sm font-thin border-none">
+                      {" "}
+                      Book Now
+                    </button>
+                    <button className="btn btn-outline btn-warning lg:mx-4 my-2 px-5 text-sm font-thin ">
+                      About Us
+                    </button>
+                  </div>
                 </div>
                 <div className="card hidden lg:block w-full p-5 mx-auto lg:mt-24">
                   <img
